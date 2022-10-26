@@ -11,7 +11,7 @@ import {
     Badge,
     Tag,
     Avatar,
-    Radio, Popconfirm
+    Radio, Popconfirm, Divider
 } from 'antd';
 
 import {
@@ -221,7 +221,12 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Habibi Coding</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                By Habibi Coding
+                <Divider>
+                    <a target="_blank" href="https://amigoscode.com/">Amigoscode</a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
