@@ -27,6 +27,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.24</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -113,7 +114,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>docker.io/amigoscode/${app.image.name}:${app.image.tag}</image>
+										<image>docker.io/fahrican/${app.image.name}:${app.image.tag}</image>
 									</to>
 								</configuration>
 								<goals>
@@ -125,7 +126,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>docker.io/amigoscode/${app.image.name}:latest</image>
+										<image>docker.io/fahrican/${app.image.name}:latest</image>
 									</to>
 								</configuration>
 								<goals>
@@ -165,7 +166,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>amigoscode/${app.image.name}:${app.image.tag}</image>
+										<image>fahrican/${app.image.name}:${app.image.tag}</image>
 									</to>
 								</configuration>
 								<goals>
@@ -177,7 +178,7 @@
 								<phase>package</phase>
 								<configuration>
 									<to>
-										<image>amigoscode/${app.image.name}:latest</image>
+										<image>fahrican/${app.image.name}:latest</image>
 									</to>
 								</configuration>
 								<goals>

@@ -122,15 +122,15 @@ function App() {
                 console.log(data);
                 setStudents(data);
             }).catch(err => {
-                console.log(err.response)
-                err.response.json().then(res => {
-                    console.log(res);
-                    errorNotification(
-                        "There was an issue",
-                        `${res.message} [${res.status}] [${res.error}]`
-                    )
-                });
-            }).finally(() => setFetching(false))
+            console.log(err.response)
+            err.response.json().then(res => {
+                console.log(res);
+                errorNotification(
+                    "There was an issue",
+                    `${res.message} [${res.status}] [${res.error}]`
+                )
+            });
+        }).finally(() => setFetching(false))
 
     useEffect(() => {
         console.log("component is mounted");
@@ -221,7 +221,7 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
+            <Footer style={{textAlign: 'center'}}>By Habibi Coding</Footer>
         </Layout>
     </Layout>
 }
