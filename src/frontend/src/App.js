@@ -224,7 +224,7 @@ function App() {
             <Footer style={{textAlign: 'center'}}>
                 By Habibi Coding
                 <Divider>
-                    <a target="_blank" href="https://amigoscode.com/">Amigoscode</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://amigoscode.com/">Amigoscode</a>
                 </Divider>
             </Footer>
         </Layout>
